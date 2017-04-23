@@ -231,7 +231,7 @@
 
 
                         <div class="col-md-12">
-                            <form action="../../scritp_requerimiento/scritp.php" name="update_register" id="update_register" class="form-horizontal" method="post" > <?php //enctype="multipart/form-data"?>
+                            <form action="../../scritp_requerimiento/ingresar_requerimiento.php" name="update_register" id="update_register" class="form-horizontal" method="post" > <?php //enctype="multipart/form-data"?>
 
                                 <div class="nav-tabs-custom">
                                     <ul class="nav nav-tabs">
@@ -312,19 +312,19 @@
                                             <div class="row">
                                                 <div class="col-md-3">
                                                     <label><font color="blue">Proyecto :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico"  name="proyecto">
                                                 </div>
                                                 <div class="col-md-3">
                                                     <label><font color="blue">Grupo :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="grupo">
                                                 </div>
                                                 <div class="col-md-3">
                                                     <label><font color="blue">Periodo Programado :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="per_prog">
                                                 </div>
                                                 <div class="col-md-3">
                                                     <label><font color="blue">Proveedor :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="proveedor">
                                                 </div>
                                             </div>
                                             <br>
@@ -332,19 +332,19 @@
                                             <div class="row">
                                                 <div class="col-md-2">
                                                     <label><font color="DarkOliveGreen">Departamento :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="departamento">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkOliveGreen">Provincia :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="provincia">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkOliveGreen">Distrito :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="distrito">
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label><font color="DarkOliveGreen">Dirección :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="direccion">
                                                 </div>
                                             </div>
                                             <br>
@@ -352,23 +352,23 @@
                                             <div class="row">
                                                 <div class="col-md-2">
                                                     <label><font color="DarkOliveGreen">Locación :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="locacion">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkOliveGreen">Zona :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="zona">
                                                 </div>
                                                 <div class="col-md-3">
                                                     <label><font color="DarkOliveGreen">Contacto :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="contacto">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkOliveGreen">Telf_Contacto :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="tel_contacto">
                                                 </div>
                                                 <div class="col-md-3">
-                                                    <label><font color="DarkOliveGreen">Email_ Conctacto :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <label><font color="DarkOliveGreen">Email_ Contacto :</font></label>
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="email_contacto">
                                                 </div>
                                             </div>
 
@@ -381,27 +381,27 @@
                                             <div class="row">
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Marca Antigua :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="mark_old">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Modelo Antiguo :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="model_old">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Serie Antiguo :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="serie_old">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Marca Nueva :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="mark_new">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Modelo Nuevo :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="model_new">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Serie Nueva :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="serie_new">
                                                 </div>
                                             </div>
 
@@ -410,11 +410,11 @@
                                             <div class="row">
                                                 <div class="col-md-2">
                                                     <label><font color="DarkSlateGrey">Mueble Nuevo :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="mueble_new">
                                                 </div>
                                                 <div class="col-md-3">
                                                     <label><font color="DarkSlateGrey">Denominaciones Nuevo :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="denom_new">
                                                 </div>
                                             </div>
                                             <br>
@@ -424,27 +424,27 @@
 
                                                 <div class="col-md-2">
                                                     <label><font color="Indigo">Ip Local ATM :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="ip_local_atm">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="Indigo">Máscara :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="mascara">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="Indigo">IP GW :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="ip_gw">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="Indigo">IP Tandem :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="ip_tandem">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="Indigo">Puerto :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="puerto">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="Indigo">IP local Alarmas :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="ip_local_alarmas">
                                                 </div>
                                             </div>
                                             <br>
@@ -454,15 +454,13 @@
 
                                                 <div class="col-md-2">
                                                     <label><font color="green">Inversion :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="inversion">
                                                 </div>
                                                 <div class="col-md-2">
                                                     <label><font color="green">IGV :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
+                                                    <input class="form-control" type="text" placeholder="Automatico" name="igv">
                                                 </div>
                                                 <div class="col-md-2">
-                                                    <label><font color="green">Precio perdido :</font></label>
-                                                    <input class="form-control" type="text" placeholder="Automatico">
                                                 </div>
 
                                             </div>
@@ -472,7 +470,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <h5> <label><font color="BLACK"><u>DESCRIPCION GENERAL</u></font></label></h5>
-                                                    <textarea class="form-control" rows="5" placeholder="Ingrese la Descripción aqui."></textarea>
+                                                    <textarea class="form-control" rows="5" placeholder="Ingrese la Descripción aqui." name="descripcion_general"></textarea>
                                                 </div>
                                             </div>
                                             

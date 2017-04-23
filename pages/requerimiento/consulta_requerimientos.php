@@ -205,7 +205,7 @@
                                 <li class="active"><a href="reportes_inventario.html"><i class="fa fa-bar-chart"></i>Estadisticos</a></li>
                             </ul>
                         </li>
-                      
+
                     </ul>
 
                 </section>
@@ -232,12 +232,12 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label><font color="blue">Id_Requerimiento :</font></label>
-                                <input class="form-control" type="text" placeholder="Automatico">
+                                <input class="form-control" type="text" placeholder="Automatico" name="id_requerimiento">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Tipo Producto :</font></label>
-                            <select class="form-control select2"  data-placeholder="Seleccione" style="width: 100%;">
+                            <select class="form-control select2"  data-placeholder="Seleccione" style="width: 100%;" name="tip_producto">
                                 <option>ATM</option>
                                 <option>KIO</option>
                                 <option>MON</option>
@@ -246,7 +246,7 @@
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Tipo de Requerimiento :</font></label>
-                            <select class="form-control select2"  style="width: 100%;">
+                            <select class="form-control select2"  style="width: 100%;" name="tip_requerimiento">
                                 <option value="" disabled selected>Seleccione el Requerimiento</option>
                                 <option>Nueva Instalación</option>
                                 <option>Recambio</option>
@@ -258,7 +258,7 @@
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Status del Requerimiento :</font></label>
-                            <select class="form-control select2"  style="width: 100%;">
+                            <select class="form-control select2"  style="width: 100%;" name="status">
                                 <option value="" disabled selected>Seleccione el Estado</option>
                                 <option>No Iniciado</option>
                                 <option>No Aplica</option>
@@ -271,7 +271,7 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label><font color="blue">Proyecto :</font></label>
-                                <select class="form-control select2"  data-placeholder="Seleccione" style="width: 100%;">
+                                <select class="form-control select2"  data-placeholder="Seleccione" style="width: 100%;" name="proyecto">
                                     <option>UltraBerlin</option>
                                     <option>Vegetativo</option>
                                     <option>Tiendas</option>
@@ -281,15 +281,15 @@
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Grupo :</font></label>
-                            <input class="form-control" type="text" placeholder="Automatico">
+                            <input class="form-control" type="text" placeholder="Automatico" name="grupo">
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Periodo :</font></label>
-                            <input class="form-control" type="text" placeholder="Periodo">
+                            <input class="form-control" type="text" placeholder="Periodo" name="periodo">
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Proveedor :</font></label>
-                            <select class="form-control select2"  style="width: 100%;">
+                            <select class="form-control select2"  style="width: 100%;" name="proveedor">
                                 <option value="" disabled selected>Seleccione</option>
                                 <option>Cosesa</option>
                             </select>
@@ -299,20 +299,20 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label><font color="blue">Departamento :</font></label>
-                                <input class="form-control" type="text" placeholder="Departamento">
+                                <input class="form-control" type="text" placeholder="Departamento" name="departamento">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Provincia :</font></label>
-                            <input class="form-control" type="text" placeholder="Provincia">
+                            <input class="form-control" type="text" placeholder="Provincia" name="provincia">
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Distrito :</font></label>
-                            <input class="form-control" type="text" placeholder="Distrito">
+                            <input class="form-control" type="text" placeholder="Distrito" name="distrito">
                         </div>
                         <div class="col-md-3">
                             <label><font color="blue">Locación :</font></label>
-                            <input class="form-control" type="text" placeholder="Locación">
+                            <input class="form-control" type="text" placeholder="Locación" name="locacion">
                         </div>
                     </div>
                     <div class="row">
@@ -322,8 +322,8 @@
                                 <div class="input-group-addon">
                                     <i class="fa fa-calendar"></i>
                                 </div>
-                                <input type="text" class="form-control pull-right" value="01/04/2017 - 04/04/2017" id="range" readonly="">
-                            </div><!-- /input-group -->
+                                <input type="text" class="form-control pull-left" id="reservation" name="intervalo">
+                            </div>
                         </div>
 
                         <div class="col-md-3">
